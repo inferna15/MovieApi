@@ -13,8 +13,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{94DD8375-77D1-46EF-851E-77190959C7F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Domain", "Core\MovieApi.Domain\MovieApi.Domain.csproj", "{53081423-ABC8-40A4-9601-F444E53C6EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Persistence", "Infrastructure\MovieApi.Persistence\MovieApi.Persistence.csproj", "{FA3D2E73-9CE7-4F77-90F3-E6910F3C9594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebApi", "Presentation\MovieApi.WebApi\MovieApi.WebApi.csproj", "{B51A6B43-FE0B-4188-8DE3-0E24AAB67166}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53081423-ABC8-40A4-9601-F444E53C6EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53081423-ABC8-40A4-9601-F444E53C6EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53081423-ABC8-40A4-9601-F444E53C6EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53081423-ABC8-40A4-9601-F444E53C6EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3D2E73-9CE7-4F77-90F3-E6910F3C9594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3D2E73-9CE7-4F77-90F3-E6910F3C9594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3D2E73-9CE7-4F77-90F3-E6910F3C9594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3D2E73-9CE7-4F77-90F3-E6910F3C9594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51A6B43-FE0B-4188-8DE3-0E24AAB67166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51A6B43-FE0B-4188-8DE3-0E24AAB67166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51A6B43-FE0B-4188-8DE3-0E24AAB67166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51A6B43-FE0B-4188-8DE3-0E24AAB67166}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53081423-ABC8-40A4-9601-F444E53C6EF8} = {A5596555-44E8-4CA9-B67B-B2924AB0CC74}
+		{FA3D2E73-9CE7-4F77-90F3-E6910F3C9594} = {5A695B81-24C7-4ADF-9514-BB17DD1878E5}
+		{B51A6B43-FE0B-4188-8DE3-0E24AAB67166} = {C836129E-E775-4EAA-947F-408A6201E6A5}
 	EndGlobalSection
 EndGlobal
